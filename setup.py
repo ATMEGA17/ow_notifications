@@ -41,4 +41,6 @@ if sys.argv[-1] == 'publish':
 
 setup(
 
+    install_requires=get_install_requires(),
+  
 )
